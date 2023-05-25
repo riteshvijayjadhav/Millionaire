@@ -1,0 +1,203 @@
+/*open command prompt*/
+Microsoft Windows [Version 10.0.19044.2604]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Ritesh>node -v
+v18.14.2
+
+C:\Users\Ritesh>cd Desktop
+The system cannot find the path specified.
+
+C:\Users\Ritesh>C:\Users\Ritesh\OneDrive\Desktop
+'C:\Users\Ritesh\OneDrive\Desktop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Ritesh>C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A
+'C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Ritesh>cd C:\Users\Ritesh\OneDrive\Desktop
+
+C:\Users\Ritesh\OneDrive\Desktop>cd Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A
+The system cannot find the path specified.
+
+C:\Users\Ritesh\OneDrive\Desktop>cd WAD\Lab Assignments\Lab Assignments\assignment-3A
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>index.js
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>node index.js
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\index.js
+←[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)←[39m
+←[90m    at Module._load (node:internal/modules/cjs/loader:920:27)←[39m
+←[90m    at Module.require (node:internal/modules/cjs/loader:1141:19)←[39m
+←[90m    at require (node:internal/modules/cjs/helpers:110:18)←[39m
+    at Object.<anonymous> ←[90m(C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\←[39mindex.js:1:17←[90m)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1254:14)←[39m
+←[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:1117:32)←[39m
+←[90m    at Module._load (node:internal/modules/cjs/loader:958:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m {
+  code: ←[32m'MODULE_NOT_FOUND'←[39m,
+  requireStack: [
+    ←[32m'C:\\Users\\Ritesh\\OneDrive\\Desktop\\WAD\\Lab Assignments\\Lab Assignments\\assignment-3A\\index.js'←[39m
+  ]
+}
+
+Node.js v18.14.2
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>node index.js
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\index.js
+←[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)←[39m
+←[90m    at Module._load (node:internal/modules/cjs/loader:920:27)←[39m
+←[90m    at Module.require (node:internal/modules/cjs/loader:1141:19)←[39m
+←[90m    at require (node:internal/modules/cjs/helpers:110:18)←[39m
+    at Object.<anonymous> ←[90m(C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\←[39mindex.js:1:17←[90m)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1254:14)←[39m
+←[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:1117:32)←[39m
+←[90m    at Module._load (node:internal/modules/cjs/loader:958:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m {
+  code: ←[32m'MODULE_NOT_FOUND'←[39m,
+  requireStack: [
+    ←[32m'C:\\Users\\Ritesh\\OneDrive\\Desktop\\WAD\\Lab Assignments\\Lab Assignments\\assignment-3A\\index.js'←[39m
+  ]
+}
+
+Node.js v18.14.2
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+description:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\package.json:
+
+{
+  "name": "assignment3a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "description": ""
+}
+
+
+Is this OK? (yes)
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>node index.js
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\index.js
+←[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)←[39m
+←[90m    at Module._load (node:internal/modules/cjs/loader:920:27)←[39m
+←[90m    at Module.require (node:internal/modules/cjs/loader:1141:19)←[39m
+←[90m    at require (node:internal/modules/cjs/helpers:110:18)←[39m
+    at Object.<anonymous> ←[90m(C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\←[39mindex.js:1:17←[90m)←[39m
+←[90m    at Module._compile (node:internal/modules/cjs/loader:1254:14)←[39m
+←[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)←[39m
+←[90m    at Module.load (node:internal/modules/cjs/loader:1117:32)←[39m
+←[90m    at Module._load (node:internal/modules/cjs/loader:958:12)←[39m
+←[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)←[39m {
+  code: ←[32m'MODULE_NOT_FOUND'←[39m,
+  requireStack: [
+    ←[32m'C:\\Users\\Ritesh\\OneDrive\\Desktop\\WAD\\Lab Assignments\\Lab Assignments\\assignment-3A\\index.js'←[39m
+  ]
+}
+
+Node.js v18.14.2
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>nodemon index.js
+[nodemon] 2.0.21
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A\index.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Ritesh\\OneDrive\\Desktop\\WAD\\Lab Assignments\\Lab Assignments\\assignment-3A\\index.js'
+  ]
+}
+
+Node.js v18.14.2
+[nodemon] app crashed - waiting for file changes before starting...
+┌───────────────────────────────────┐
+│ New version of nodemon available! │
+│ Current Version: 2.0.21           │
+│ Latest Version: 2.0.22            │
+└───────────────────────────────────┘
+^C
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>$ npm i express body-parser
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A> npm i express body-parser
+npm WARN old lockfile
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile
+
+added 60 packages, and audited 61 packages in 18s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-3A>node index.js
+app started on port 4000
+
+
+/*Open Browser*/
+http://localhost:4000/

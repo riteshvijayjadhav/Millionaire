@@ -1,0 +1,68 @@
+/*Command Prompt*/
+Microsoft Windows [Version 10.0.19044.2604]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Ritesh>cdC:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\Ritesh>OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B
+'OneDrive\Desktop\WAD\Lab' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Ritesh>\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B
+The system cannot find the path specified.
+
+C:\Users\Ritesh>cd OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (assignment-2b)
+version: (1.0.0)
+description:
+entry point: (app.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B\package.json:
+
+{
+  "name": "assignment-2b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B>
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B>npm i express body-parser
+
+added 60 packages, and audited 61 packages in 41s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B>node app.js
+Hello world form nodejs app
+
+C:\Users\Ritesh\OneDrive\Desktop\WAD\Lab Assignments\Lab Assignments\assignment-2B>
+
